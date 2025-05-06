@@ -1,0 +1,5 @@
+= gtfstidy docker image
+
+Just builds a docker image for gtfstidy (regularly every few months, and on changes on this repo).
+
+Uses the original repo (thus no code here) and the Dockerfile from this repo.

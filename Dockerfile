@@ -2,8 +2,8 @@ FROM docker.io/golang:bookworm AS builder
 
 WORKDIR src
 
-COPY *.go ./
-COPY processors/ ./processors/
+COPY upstream/*.go ./
+COPY upstream/processors/ ./processors/
 
 RUN go mod init gtfstidy
 RUN go mod tidy
