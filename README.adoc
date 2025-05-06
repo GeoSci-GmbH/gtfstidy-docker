@@ -1,5 +1,12 @@
 = gtfstidy docker image
 
-Just builds a docker image for gtfstidy (regularly every few months, and on changes on this repo).
+Just builds a docker image for https://github.com/patrickbr/gtfstidy[gtfstidy] (regularly every few months, and on changes on this repo).
 
-Uses the original repo (thus no code here) and the Dockerfile from this repo.
+Uses the original repo (thus no code here) and the Dockerfile from this repo. Builds mostly on work from https://github.com/leonardehrenfried/gtfstidy.
+
+    docker pull ghcr.io/geosci-gmbh/gtfstidy-docker:latest
+
+[NOTE]
+====
+This repo will be removed/archived when the original repo has a docker image (see https://github.com/patrickbr/gtfstidy/pull/23).
+====
